@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{3f0da97d-4edf-48ad-90b5-1735432abe14}</ProjectGuid>
-    <RootNamespace>LinkList</RootNamespace>
+    <ProjectGuid>{48b03f40-32a0-4b12-b1d9-0b3b36f40fe3}</ProjectGuid>
+    <RootNamespace>HeadLinkList</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,11 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="LinkList.h" />
+    <ClCompile Include="Head_LinkLIst.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="LinkList.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClInclude Include="Head_LinkList.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
