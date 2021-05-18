@@ -14,7 +14,7 @@ int main() {
 	myHead_LinkList.disp();
 
 	cout << "ÔÚ2ºÅÎ»ÖÃ²åÈë100£º" << endl;
-	if (myHead_LinkList.Insert(2, 100))
+	if (myHead_LinkList.Insert(1, 100))
 	{
 		myHead_LinkList.disp();
 	}

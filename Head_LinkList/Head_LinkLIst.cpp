@@ -61,13 +61,13 @@ bool Head_LinkList::TailInseart() {
 LNode* Head_LinkList::getElement(int index) {
 	int count = 1;
 	LNode* p = h->next;
-	if (index < 1)
-	{
-		return NULL;
-	}
 	if (index == 0)
 	{
 		return h;
+	}
+	else if (index < 1)
+	{
+		return NULL;
 	}
 	while (p != NULL)
 	{
